@@ -1,0 +1,45 @@
+Process number 10 completed
+Process number 20 completed
+Process number 30 completed
+Process number 40 completed
+Process number 50 completed
+Process number 60 completed
+Process number 70 completed
+Process number 80 completed
+Process number 90 completed
+Process number 100 completed
+RESULT (euclid_h, 100, 100, 3000, 100)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 4.49719416386083
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 2.675564681724846
+Process number 10 completed
+Process number 20 completed
+Process number 30 completed
+Process number 40 completed
+Process number 50 completed
+Process number 60 completed
+Process number 70 completed
+Process number 80 completed
+Process number 90 completed
+Process number 100 completed
+RESULT (taxi_h, 100, 100, 3000, 100)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 6.0654205607476634
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 2.697530864197531
+Process number 10 completed
+Process number 20 completed
+Process number 30 completed
+Process number 40 completed
+Process number 50 completed
+Process number 60 completed
+Process number 70 completed
+Process number 80 completed
+Process number 90 completed
+Process number 100 completed
+RESULT (diagonal_h, 100, 100, 3000, 100)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 2.6151711378353375
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 1.9792375765827093

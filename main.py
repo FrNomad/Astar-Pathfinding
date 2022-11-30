@@ -125,11 +125,16 @@ def astar(mapdata, hfunc, taximove) :
 def dijkstra_h(x, y, ex, ey) :
     return 0
 
-def astar_h(x, y, ex, ey) :
+def euclid_h(x, y, ex, ey) :
     return distance(x, y, ex, ey)
 
 def taxi_h(x, y, ex, ey) :
     return abs(x + y - ex - ey)
+
+def diagonal_h(x, y, ex, ey) :
+    dx, dy = abs(ex - x), abs(ey - y)
+    return min(dx, dy) * (2 ** 0.5) + abs(dx - dy)
+
 
 ##########################################################      
 
@@ -163,6 +168,3 @@ def main(hfunc, vert, horz, blocked, loop, log) :
     print("Efficiency in Euclid : " + str(effc))
     print("Accuracy in Taxi : " + str(acc_taxi))
     print("Efficiency in Taxi : " + str(effc_taxi))
-    
-main(astar_h, 50, 50, 750, 10000, 100)
-main(taxi_h, 50, 50, 750, 10000, 100)

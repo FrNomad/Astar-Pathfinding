@@ -1,0 +1,45 @@
+Process number 1000 completed
+Process number 2000 completed
+Process number 3000 completed
+Process number 4000 completed
+Process number 5000 completed
+Process number 6000 completed
+Process number 7000 completed
+Process number 8000 completed
+Process number 9000 completed
+Process number 10000 completed
+RESULT (euclid_h, 20, 20, 120, 10000)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 4.05
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 1.7010309278350515
+Process number 1000 completed
+Process number 2000 completed
+Process number 3000 completed
+Process number 4000 completed
+Process number 5000 completed
+Process number 6000 completed
+Process number 7000 completed
+Process number 8000 completed
+Process number 9000 completed
+Process number 10000 completed
+RESULT (taxi_h, 20, 20, 120, 10000)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 1.452513966480447
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 1.3563829787234043
+Process number 1000 completed
+Process number 2000 completed
+Process number 3000 completed
+Process number 4000 completed
+Process number 5000 completed
+Process number 6000 completed
+Process number 7000 completed
+Process number 8000 completed
+Process number 9000 completed
+Process number 10000 completed
+RESULT (diagonal_h, 20, 20, 120, 10000)
+Accuracy in Euclid : 1.0
+Efficiency in Euclid : 4.959183673469388
+Accuracy in Taxi : 1.0
+Efficiency in Taxi : 1.9285714285714286
