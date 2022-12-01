@@ -1,4 +1,5 @@
 import random
+import threading
 
 class Map :
     
@@ -140,23 +141,23 @@ def diagonal_h(x, y, ex, ey) :
 
 def main(hfunc, vert, horz, blocked, loop, log) :
     i = loop
+    acc, effc = 0, 0
+    acc_taxi, effc_taxi = 0, 0
     while i > 0 :
         m = Map(vert, horz, blocked)
-        acc, effc = 0, 0
-        acc_taxi, effc_taxi = 0, 0
         control = astar(m, dijkstra_h, False)
         if control == None :
             continue
         dist = astar(m, hfunc, False)
-        acc += (control[0] / dist[0])
-        effc += (control[1] / dist[1])
+        acc += (control[0] / dist[0]) / loop
+        effc += (control[1] / dist[1]) / loop
         
         control = astar(m, dijkstra_h, True)
         if control == None :
             continue
         dist = astar(m, hfunc, True)
-        acc_taxi += (control[0] / dist[0])
-        effc_taxi += (control[1] / dist[1])
+        acc_taxi += (control[0] / dist[0]) / loop
+        effc_taxi += (control[1] / dist[1]) / loop
         
         if (i - 1) % log == 0 :
             print("Process number " + str(loop - i + 1) + " completed")

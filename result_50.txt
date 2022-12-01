@@ -9,10 +9,10 @@ Process number 800 completed
 Process number 900 completed
 Process number 1000 completed
 RESULT (euclid_h, 50, 50, 750, 1000)
-Accuracy in Euclid : 1.0
-Efficiency in Euclid : 8.375722543352602
-Accuracy in Taxi : 1.0
-Efficiency in Taxi : 2.256934306569343
+Accuracy in Euclid : 1.0000000000000007
+Efficiency in Euclid : 5.054233369505431
+Accuracy in Taxi : 1.0000000000000007
+Efficiency in Taxi : 2.8554487916183966
 Process number 100 completed
 Process number 200 completed
 Process number 300 completed
@@ -24,10 +24,10 @@ Process number 800 completed
 Process number 900 completed
 Process number 1000 completed
 RESULT (taxi_h, 50, 50, 750, 1000)
-Accuracy in Euclid : 1.0
-Efficiency in Euclid : 2.3249516441005804
-Accuracy in Taxi : 1.0
-Efficiency in Taxi : 2.196629213483146
+Accuracy in Euclid : 0.9878479660895226
+Efficiency in Euclid : 5.382459249991618
+Accuracy in Taxi : 1.0000000000000007
+Efficiency in Taxi : 3.7968743984877653
 Process number 100 completed
 Process number 200 completed
 Process number 300 completed
@@ -39,7 +39,7 @@ Process number 800 completed
 Process number 900 completed
 Process number 1000 completed
 RESULT (diagonal_h, 50, 50, 750, 1000)
-Accuracy in Euclid : 1.0
-Efficiency in Euclid : 8.464285714285714
-Accuracy in Taxi : 1.0
-Efficiency in Taxi : 3.6214833759590794
+Accuracy in Euclid : 1.0000000000000007
+Efficiency in Euclid : 7.287351866365503
+Accuracy in Taxi : 1.0000000000000007
+Efficiency in Taxi : 3.169204523489345
